@@ -1,4 +1,10 @@
-// javascript module
+/* 
+*      Name:       <ALEX WONG>
+*      Student ID: <031842149>
+*      Date:       <April 14 2022>
+*      Section:    <WEB222 - NCC>
+*/
+
 // this is for form submission validation
 
 window.onload = function() {
@@ -16,16 +22,20 @@ window.onload = function() {
 }
 
 function show(){
-  if (document.getElementById("contactMe-hourlyRate").classList.contains("hide"))
-  document.getElementById("contactMe-hourlyRate").classList.remove("hide");
-  if(document.getElementById("hourlyRate").required == false)
-  document.getElementById("hourlyRate").required = true;
+  if (document.getElementById("contactMe-hourlyRate").classList.contains("hide")) {
+    document.getElementById("contactMe-hourlyRate").classList.remove("hide");
+  }
+
+  if(document.getElementById("hourlyRate").required == false) {
+    document.getElementById("hourlyRate").required = true;
+  }
 }
 
 function hide(){
   if (!document.getElementById("contactMe-hourlyRate").classList.contains("hide")) {
     document.getElementById("contactMe-hourlyRate").classList.add("hide");
   }
+
   if (document.getElementById("hourlyRate").required == true) {
     document.getElementById("hourlyRate").required = false;
   }
