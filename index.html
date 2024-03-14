@@ -4,7 +4,7 @@
 *      Date:       <April 14 2022>
 *      Section:    <WEB222 - NCC>
 -->
-  
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,10 +23,13 @@
       crossorigin="anonymous"
     />
 
-     <!-- google fonts and material design icons -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- google fonts and material design icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone"
@@ -44,7 +47,6 @@
 
   <body>
     <main>
-
       <section id="topBlock">
         <div id="topBlock-imageArea">
           <img
@@ -53,7 +55,7 @@
             alt="profilePicture"
           />
           <h1>Alex Wong</h1>
-          <p> Programmer, photographer, and man of many other hobbies.</p>
+          <p>Programmer, photographer, and man of many other hobbies.</p>
         </div>
         <div id="topBlock-buttons">
           <!-- contact form -->
@@ -62,8 +64,11 @@
           </a>
           <!-- pdf download link -->
           <a href="resume/resume.pdf" download="alex_wong_resume.pdf">
-          <button id="button-Resume" class="button"><span class="material-icons-outlined">file_download</span>Resume PDF</button>
-        </a>
+            <button id="button-Resume" class="button">
+              <span class="material-icons-outlined">file_download</span>Resume
+              PDF
+            </button>
+          </a>
         </div>
       </section>
 
@@ -72,12 +77,16 @@
           <h2>Introduction</h2>
           <article>
             <p>
-              Hello! My name is Alex and I am currently a student at Seneca college. I originally worked in banking and had a quarter life crisis - now I'm back in 
-              school in the middle of a 180 degree career change. I am currently in the Computer Programming and Analysis stream, and have learned a variety of skills 
-              to help me break into the industry.
+              Hello! My name is Alex and I am currently a student at Seneca
+              college. I originally worked in banking and had a quarter life
+              crisis - now I'm back in school in the middle of a 180 degree
+              career change. I am currently in the Computer Programming and
+              Analysis stream, and have learned a variety of skills to help me
+              break into the industry.
             </p>
             <p>
-              Recently I've been dabbling in the world of custom keyboards. In my spare time, I am also an amateur photographer.
+              Recently I've been dabbling in the world of custom keyboards. In
+              my spare time, I am also an amateur photographer.
             </p>
           </article>
         </div>
@@ -88,56 +97,18 @@
               <th>NAME:</th>
               <td>Alex Wong</td>
             </tr>
-            <tr>
-              <th>EMAIL:</th>
-              <td>akwong14@myseneca.ca</td>
-            </tr>
-            <tr>
-              <th>LANGUAGE:</th>
-              <td>English</td>
-            </tr>
-            <tr>
-              <th>COURSE:</th>
-              <td>WEB222</td>
-            </tr>
-            <tr>
-              <th>CLASS SECTION:</th>
-              <td>NCC</td>
-            </tr>
-            <tr>
-              <th>STUDENT ID:</th>
-              <td>031842149</td>
-            </tr>
-            <tr>
-              <th>INSTRUCTOR:</th>
-              <td>Mark Meritt</td>
-            </tr>
           </table>
-        </div>
-        <div id="aboutMe-honesty">
-          <h2>Honesty Statement:</h2>
-          <article>
-            <span class="italicized">I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment 
-            has been copied manually or electronically from any other source (including web sites) except for the information supplied 
-            by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this 
-            assignment has been distributed to other students.</span><br/>
-          </article>
-          <p id="current-date">
-            <strong>Date: </strong>
-            <time datetime="2022-04-13">April 13, 2022</time>
-          </p>
         </div>
       </section>
 
       <section id="educationBlock">
         <h2>Education</h2>
         <div class="educationBlock-container">
-
           <div class="educationBlock-container-major">
             <h5>2021 - 2024</h5>
             <h4>Diploma</h4>
           </div>
-          
+
           <div class="educationBlock-container-details">
             <h6>School of Software Design & Data Science</h6>
             <h1>Computer Programming and Analysis</h1>
@@ -145,10 +116,9 @@
           </div>
         </div>
 
-        <br>
+        <br />
 
         <div class="educationBlock-container">
-
           <div class="educationBlock-container-major">
             <h5>2009 - 2012</h5>
             <h4>Bachelor's Degree</h4>
@@ -159,7 +129,6 @@
             <h1>Criminology</h1>
             <h3>Ryerson University</h3>
           </div>
-
         </div>
       </section>
 
@@ -184,7 +153,9 @@
                   tabindex="1"
                   required
                 />
-                <label for="fname">&emsp;<span class="text-danger">*</span> First Name</label>
+                <label for="fname"
+                  >&emsp;<span class="text-danger">*</span> First Name</label
+                >
               </div>
               <div class="form-group col-sm-6 col-xs-3 form-floating">
                 <input
@@ -195,7 +166,9 @@
                   tabindex="2"
                   required
                 />
-                <label for="lname">&emsp;<span class="text-danger">*</span> Last Name</label>
+                <label for="lname"
+                  >&emsp;<span class="text-danger">*</span> Last Name</label
+                >
               </div>
             </div>
             <br />
@@ -209,7 +182,9 @@
                   tabindex="3"
                   required
                 />
-                <label for="email">&emsp;<span class="text-danger">*</span> Email</label>
+                <label for="email"
+                  >&emsp;<span class="text-danger">*</span> Email</label
+                >
               </div>
 
               <div class="form-group col-sm-6 col-xs-3 form-floating">
@@ -221,7 +196,9 @@
                   tabindex="4"
                   required
                 />
-                <label for="phone">&emsp;<span class="text-danger">*</span> Phone Number</label>
+                <label for="phone"
+                  >&emsp;<span class="text-danger">*</span> Phone Number</label
+                >
               </div>
             </div>
             <br />
@@ -235,7 +212,9 @@
                   tabindex="5"
                   required
                 />
-                <label for="address">&emsp;<span class="text-danger">*</span> Street</label>
+                <label for="address"
+                  >&emsp;<span class="text-danger">*</span> Street</label
+                >
               </div>
               <div class="form-group col-sm-6 col-xs-3 form-floating">
                 <input
@@ -266,7 +245,9 @@
                   <option value="Charlottetown"></option>
                   <option value="Hamilton"></option>
                 </datalist>
-                <label for="city">&emsp;<span class="text-danger">*</span> City</label>
+                <label for="city"
+                  >&emsp;<span class="text-danger">*</span> City</label
+                >
               </div>
             </div>
             <br />
@@ -294,7 +275,9 @@
                   <option value="SK">Saskatchewan</option>
                   <option value="YT">Yukon</option>
                 </select>
-                <label for="province">&emsp;<span class="text-danger">*</span> Province</label>
+                <label for="province"
+                  >&emsp;<span class="text-danger">*</span> Province</label
+                >
               </div>
 
               <div class="form-group col-sm-6 col-xs-3 form-floating">
@@ -307,7 +290,9 @@
                   tabindex="8"
                   required
                 />
-                <label for="postal-code">&emsp;<span class="text-danger">*</span> Postal Code</label>
+                <label for="postal-code"
+                  >&emsp;<span class="text-danger">*</span> Postal Code</label
+                >
               </div>
               <div class="invalid-feedback">
                 Please enter a valid Postal Code.
@@ -330,7 +315,11 @@
                     onclick="hide()"
                     checked
                   />
-                  <label class="form-check-label" for="feedback-purpose-question">Questions?</label>
+                  <label
+                    class="form-check-label"
+                    for="feedback-purpose-question"
+                    >Questions?</label
+                  >
                 </div>
                 <div class="form-check">
                   <input
@@ -341,7 +330,9 @@
                     tabindex="11"
                     onclick="hide()"
                   />
-                  <label class="form-check-label" for="feedback-purpose-comment">Comments?</label>
+                  <label class="form-check-label" for="feedback-purpose-comment"
+                    >Comments?</label
+                  >
                 </div>
                 <div class="form-check">
                   <input
@@ -352,7 +343,9 @@
                     tabindex="12"
                     onclick="show()"
                   />
-                  <label class="form-check-label" for="feedback-purpose-hiring">Opportunities?</label>
+                  <label class="form-check-label" for="feedback-purpose-hiring"
+                    >Opportunities?</label
+                  >
                 </div>
 
                 <div id="contactMe-hourlyRate" class="rateInput hide">
@@ -365,7 +358,8 @@
                       placeholder="0.00"
                     />
                     <label for="rate"
-                      ><span class="text-danger"> *</span> Hourly Rate ($CAD)</label
+                      ><span class="text-danger"> *</span> Hourly Rate
+                      ($CAD)</label
                     >
                   </div>
                 </div>
@@ -382,7 +376,9 @@
                   style="height: 150px"
                   value=""
                 ></textarea>
-                <label for="message">&emsp;<span class="text-danger">*</span></label>
+                <label for="message"
+                  >&emsp;<span class="text-danger">*</span></label
+                >
               </div>
             </div>
 
@@ -412,11 +408,8 @@
   </body>
 
   <footer>
-    <br/>
-    <p>
-      &copy;: Alex Wong 2022
-    </p>
-    <br/>
+    <br />
+    <p>&copy;: Alex Wong 2022</p>
+    <br />
   </footer>
-
 </html>
