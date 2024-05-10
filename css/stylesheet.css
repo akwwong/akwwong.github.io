@@ -70,10 +70,7 @@ img:hover {
   color: #b7cada;
 }
 
-.icons {
-  font-size: 24px;
-}
-
+.icons,
 ion-icon {
   font-size: 24px;
 }
